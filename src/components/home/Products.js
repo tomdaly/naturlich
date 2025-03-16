@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { Container } from '../common/Container';
 import { Section } from '../common/Section';
 import { Button } from '../common/Button';
+import Modal from '../common/Modal';
+import ProductDetail from '../products/ProductDetail';
 
 const SectionTitle = styled.h2`
   text-align: center;
@@ -81,6 +83,9 @@ const ButtonContainer = styled.div`
 `;
 
 const Products = () => {
+  const [selectedProduct, setSelectedProduct] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  
   const products = [
     {
       id: 1,
@@ -88,7 +93,13 @@ const Products = () => {
       description: 'Hand-picked, organic strawberries at the peak of ripeness.',
       price: '£5.49',
       image: '/images/fresh-strawberries.jpg',
-      link: '/products/fresh-strawberries'
+      link: '/products/fresh-strawberries',
+      features: [
+        'Organically grown',
+        'No pesticides or chemicals',
+        'Harvested at peak ripeness',
+        'Rich in vitamins and antioxidants'
+      ]
     },
     {
       id: 2,
@@ -96,7 +107,13 @@ const Products = () => {
       description: 'Homemade jam made with our organic strawberries and natural sweeteners.',
       price: '£6.99',
       image: '/images/strawberry-jam.jpg',
-      link: '/products/strawberry-jam'
+      link: '/products/strawberry-jam',
+      features: [
+        'Made with 100% organic strawberries',
+        'No artificial preservatives',
+        'Natural sweeteners only',
+        'Perfect for breakfast or desserts'
+      ]
     },
     {
       id: 3,
@@ -104,9 +121,24 @@ const Products = () => {
       description: 'Perfect gift featuring our premium strawberries and strawberry products.',
       price: '£19.99',
       image: '/images/gift-box.jpg',
-      link: '/products/gift-boxes'
+      link: '/products/gift-boxes',
+      features: [
+        'Contains fresh strawberries',
+        'Includes our signature strawberry jam',
+        'Handcrafted wooden box',
+        'Perfect for special occasions'
+      ]
     }
   ];
+  
+  const openProductModal = (product) => {
+    setSelectedProduct(product);
+    setIsModalOpen(true);
+  };
+  
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
 
   return (
     <Section>
@@ -125,7 +157,11 @@ const Products = () => {
                 <ProductTitle>{product.title}</ProductTitle>
                 <ProductDescription>{product.description}</ProductDescription>
                 <ProductPrice>{product.price}</ProductPrice>
-                <Button as={Link} to={product.link} variant="outline" fullWidth>
+                <Button 
+                  variant="outline" 
+                  fullWidth
+                  onClick={() => openProductModal(product)}
+                >
                   View Product
                 </Button>
               </ProductContent>
@@ -139,6 +175,14 @@ const Products = () => {
           </Button>
         </ButtonContainer>
       </Container>
+      
+      <Modal 
+        isOpen={isModalOpen} 
+        onClose={closeModal} 
+        title={selectedProduct?.title || 'Product Details'}
+      >
+        {selectedProduct && <ProductDetail product={selectedProduct} />}
+      </Modal>
     </Section>
   );
 };

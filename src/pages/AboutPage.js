@@ -153,7 +153,7 @@ const AboutPage = () => {
             <ContentColumn>
               <SectionTitle>Our <span>Story</span></SectionTitle>
               <SectionText>
-                Naturlich was founded in 2010 by Emma Schmidt, a third-generation farmer with a passion for sustainable agriculture. 
+                Naturlich was founded in 2010 by Berry Goodman, a third-generation farmer with a passion for sustainable agriculture. 
                 What began as a small family farm has grown into a thriving business that produces some of the finest organic 
                 strawberries in the country.
               </SectionText>

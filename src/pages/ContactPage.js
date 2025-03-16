@@ -272,7 +272,7 @@ const ContactPage = () => {
                   </InfoIcon>
                   <InfoContent>
                     <InfoLabel>Our Location</InfoLabel>
-                    <InfoValue>123 Berry Lane, Strawberry Fields, Kent ME19 6JU</InfoValue>
+                    <InfoValue>123 Berry Lane, Strawberry Fields, Kent CT2 7NZ</InfoValue>
                   </InfoContent>
                 </InfoItem>
                 
@@ -311,7 +311,7 @@ const ContactPage = () => {
               
               <MapContainer>
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2495.6988622694036!2d0.4034991156741965!3d51.29784647959757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47df4b2a49a5d8ab%3A0x95009f275b7bce8c!2sKent%20ME19%206JU!5e0!3m2!1sen!2suk!4v1616252573877!5m2!1sen!2suk" 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2490.5844843094897!2d1.0623963156774673!3d51.29784647959757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47deca27c2459d15%3A0x29c2d79765b418d3!2sCanterbury%20CT2%207NZ!5e0!3m2!1sen!2suk!4v1616252573877!5m2!1sen!2suk" 
                   allowFullScreen="" 
                   loading="lazy"
                   title="Naturlich Farm Location"

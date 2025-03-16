@@ -149,7 +149,7 @@ const Footer = () => {
         <FooterSection>
           <FooterTitle>Contact Us</FooterTitle>
           <FooterText>123 Berry Lane</FooterText>
-          <FooterText>Strawberry Fields, Kent ME19 6JU</FooterText>
+          <FooterText>Strawberry Fields, Kent CT2 7NZ</FooterText>
           <FooterText>Phone: 01234 567890</FooterText>
           <FooterText>Email: info@naturlich.co.uk</FooterText>
         </FooterSection>

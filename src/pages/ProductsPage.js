@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import { Container } from '../components/common/Container';
 import { Section } from '../components/common/Section';
 import { Button } from '../components/common/Button';
 import { Link } from 'react-router-dom';
+import Modal from '../components/common/Modal';
+import ProductDetail from '../components/products/ProductDetail';
 
 const PageHeader = styled.div`
   background-color: ${({ theme }) => theme.colors.accent};
@@ -104,7 +106,18 @@ const CategoryTab = styled.button`
 `;
 
 const ProductsPage = () => {
-  const [activeCategory, setActiveCategory] = React.useState('all');
+  const [activeCategory, setActiveCategory] = useState('all');
+  const [selectedProduct, setSelectedProduct] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  
+  const openProductModal = (product) => {
+    setSelectedProduct(product);
+    setIsModalOpen(true);
+  };
+  
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
   
   const categories = [
     { id: 'all', name: 'All Products' },
@@ -234,7 +247,11 @@ const ProductsPage = () => {
                   <ProductTitle>{product.title}</ProductTitle>
                   <ProductDescription>{product.description}</ProductDescription>
                   <ProductPrice>{product.price}</ProductPrice>
-                  <Button as={Link} to={product.link} variant="outline" fullWidth>
+                  <Button 
+                    variant="outline" 
+                    fullWidth
+                    onClick={() => openProductModal(product)}
+                  >
                     View Product
                   </Button>
                 </ProductContent>
@@ -243,6 +260,14 @@ const ProductsPage = () => {
           </ProductsGrid>
         </Container>
       </Section>
+      
+      <Modal 
+        isOpen={isModalOpen} 
+        onClose={closeModal} 
+        title={selectedProduct?.title || 'Product Details'}
+      >
+        {selectedProduct && <ProductDetail product={selectedProduct} />}
+      </Modal>
     </>
   );
 };
