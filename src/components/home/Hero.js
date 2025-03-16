@@ -79,8 +79,7 @@ const Hero = () => {
             Naturally <span>Sweet</span>, Naturally <span>Grown</span>
           </HeroTitle>
           <HeroSubtitle>
-            Premium organic strawberries grown with love and care for the environment.
-            Experience the natural sweetness of our berries.
+            simply berry good.
           </HeroSubtitle>
           <ButtonGroup>
             <Button as={Link} to="/shop" size="large">

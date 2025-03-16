@@ -32,6 +32,7 @@ const Logo = styled(Link)`
   letter-spacing: 1px;
   color: ${({ theme }) => theme.colors.primary};
   transition: color ${({ theme }) => theme.transitions.short};
+  text-transform: lowercase;
   
   &:hover {
     color: ${({ theme }) => theme.colors.primaryLight};

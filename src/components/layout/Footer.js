@@ -95,6 +95,7 @@ const Logo = styled.div`
   letter-spacing: 1px;
   color: ${({ theme }) => theme.colors.light};
   margin-bottom: ${({ theme }) => theme.spacing.md};
+  text-transform: lowercase;
 `;
 
 const Footer = () => {
@@ -106,8 +107,7 @@ const Footer = () => {
         <FooterSection>
           <Logo>Naturlich</Logo>
           <FooterText>
-            Premium organic strawberries grown with love and care for the environment.
-            Taste the difference of naturally grown berries.
+            simply berry good.
           </FooterText>
           <SocialIcons>
             <SocialIcon href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
