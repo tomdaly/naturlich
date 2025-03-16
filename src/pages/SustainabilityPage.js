@@ -5,7 +5,7 @@ import { Section } from '../components/common/Section';
 import { FaLeaf, FaWater, FaSeedling, FaRecycle } from 'react-icons/fa';
 
 const PageHeader = styled.div`
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.secondary};
   padding: ${({ theme }) => theme.spacing.xxl} 0;
   color: ${({ theme }) => theme.colors.light};
   text-align: center;
@@ -63,7 +63,7 @@ const PracticeCard = styled.div`
 
 const PracticeIcon = styled.div`
   font-size: 2.5rem;
-  color: ${({ theme }) => theme.colors.primary};
+  color: ${({ theme }) => theme.colors.secondary};
   margin-right: ${({ theme }) => theme.spacing.lg};
   flex-shrink: 0;
 `;
@@ -155,7 +155,7 @@ const StatCard = styled.div`
 const StatNumber = styled.div`
   font-size: 3rem;
   font-weight: 700;
-  color: ${({ theme }) => theme.colors.primary};
+  color: ${({ theme }) => theme.colors.tertiary};
   margin-bottom: ${({ theme }) => theme.spacing.sm};
 `;
 

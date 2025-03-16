@@ -12,7 +12,7 @@ const StyledHeader = styled.header`
   width: 100%;
   z-index: 1000;
   background-color: ${({ scrolled, theme }) => 
-    scrolled ? theme.colors.light : 'transparent'};
+    scrolled ? theme.colors.light : 'rgba(255, 255, 255, 0.9)'};
   box-shadow: ${({ scrolled, theme }) => 
     scrolled ? theme.shadows.medium : 'none'};
   transition: all ${({ theme }) => theme.transitions.medium};
@@ -30,12 +30,11 @@ const Logo = styled(Link)`
   font-family: ${({ theme }) => theme.fonts.heading};
   font-size: ${({ theme }) => theme.fontSizes.xlarge};
   font-weight: 700;
-  color: ${({ scrolled, theme }) => 
-    scrolled ? theme.colors.primary : theme.colors.light};
+  color: ${({ theme }) => theme.colors.primary};
   transition: color ${({ theme }) => theme.transitions.short};
   
   &:hover {
-    color: ${({ theme }) => theme.colors.primary};
+    color: ${({ theme }) => theme.colors.primaryLight};
   }
 `;
 
@@ -81,8 +80,7 @@ const NavItem = styled.li`
 `;
 
 const NavLinkStyled = styled(NavLink)`
-  color: ${({ scrolled, theme }) => 
-    scrolled ? theme.colors.textPrimary : theme.colors.light};
+  color: ${({ theme }) => theme.colors.textPrimary};
   font-weight: 500;
   padding: ${({ theme }) => theme.spacing.xs} ${({ theme }) => theme.spacing.sm};
   border-radius: ${({ theme }) => theme.borderRadius.small};
@@ -90,7 +88,7 @@ const NavLinkStyled = styled(NavLink)`
   
   &:hover, &.active {
     color: ${({ theme }) => theme.colors.primary};
-    background-color: rgba(250, 80, 83, 0.1);
+    background-color: rgba(217, 68, 70, 0.1);
   }
   
   @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
@@ -104,8 +102,7 @@ const MobileMenuButton = styled.button`
   display: none;
   background: none;
   border: none;
-  color: ${({ scrolled, theme }) => 
-    scrolled ? theme.colors.textPrimary : theme.colors.light};
+  color: ${({ theme }) => theme.colors.textPrimary};
   font-size: ${({ theme }) => theme.fontSizes.xlarge};
   cursor: pointer;
   z-index: 1001;
@@ -167,11 +164,11 @@ const Header = () => {
   return (
     <StyledHeader scrolled={scrolled}>
       <HeaderContainer>
-        <Logo to="/" scrolled={scrolled}>
+        <Logo to="/">
           Naturlich
         </Logo>
         
-        <MobileMenuButton onClick={toggleMenu} scrolled={scrolled}>
+        <MobileMenuButton onClick={toggleMenu}>
           <FaBars />
         </MobileMenuButton>
         
@@ -182,27 +179,27 @@ const Header = () => {
           
           <NavList>
             <NavItem>
-              <NavLinkStyled to="/" scrolled={scrolled} onClick={closeMenu}>
+              <NavLinkStyled to="/" onClick={closeMenu}>
                 Home
               </NavLinkStyled>
             </NavItem>
             <NavItem>
-              <NavLinkStyled to="/about" scrolled={scrolled} onClick={closeMenu}>
+              <NavLinkStyled to="/about" onClick={closeMenu}>
                 About
               </NavLinkStyled>
             </NavItem>
             <NavItem>
-              <NavLinkStyled to="/products" scrolled={scrolled} onClick={closeMenu}>
+              <NavLinkStyled to="/products" onClick={closeMenu}>
                 Products
               </NavLinkStyled>
             </NavItem>
             <NavItem>
-              <NavLinkStyled to="/sustainability" scrolled={scrolled} onClick={closeMenu}>
+              <NavLinkStyled to="/sustainability" onClick={closeMenu}>
                 Sustainability
               </NavLinkStyled>
             </NavItem>
             <NavItem>
-              <NavLinkStyled to="/contact" scrolled={scrolled} onClick={closeMenu}>
+              <NavLinkStyled to="/contact" onClick={closeMenu}>
                 Contact
               </NavLinkStyled>
             </NavItem>

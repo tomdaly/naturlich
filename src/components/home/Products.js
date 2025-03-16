@@ -86,7 +86,7 @@ const Products = () => {
       id: 1,
       title: 'Fresh Strawberries',
       description: 'Hand-picked, organic strawberries at the peak of ripeness.',
-      price: '$6.99',
+      price: '£5.49',
       image: '/images/fresh-strawberries.jpg',
       link: '/products/fresh-strawberries'
     },
@@ -94,7 +94,7 @@ const Products = () => {
       id: 2,
       title: 'Strawberry Jam',
       description: 'Homemade jam made with our organic strawberries and natural sweeteners.',
-      price: '$8.99',
+      price: '£6.99',
       image: '/images/strawberry-jam.jpg',
       link: '/products/strawberry-jam'
     },
@@ -102,7 +102,7 @@ const Products = () => {
       id: 3,
       title: 'Gift Box',
       description: 'Perfect gift featuring our premium strawberries and strawberry products.',
-      price: '$24.99',
+      price: '£19.99',
       image: '/images/gift-box.jpg',
       link: '/products/gift-boxes'
     }

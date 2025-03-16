@@ -4,7 +4,7 @@ import { Container } from '../components/common/Container';
 import { Section } from '../components/common/Section';
 
 const PageHeader = styled.div`
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.tertiary};
   padding: ${({ theme }) => theme.spacing.xxl} 0;
   color: ${({ theme }) => theme.colors.light};
   text-align: center;
@@ -115,23 +115,23 @@ const AboutPage = () => {
   const teamMembers = [
     {
       id: 1,
-      name: 'Emma Schmidt',
+      name: 'Berry Goodman',
       title: 'Founder & CEO',
-      bio: 'Emma founded Naturlich with a vision to grow the most delicious organic strawberries while respecting nature.',
+      bio: 'Berry founded Naturlich with a vision to grow the most delicious organic strawberries while respecting nature.',
       image: '/images/team-1.jpg'
     },
     {
       id: 2,
-      name: 'David Miller',
+      name: 'Jammy Seedling',
       title: 'Head of Farming',
-      bio: 'With over 20 years of experience in organic farming, David ensures our strawberries are grown to perfection.',
+      bio: 'With over 20 years of experience in organic farming, Jammy ensures our strawberries are grown to perfection.',
       image: '/images/team-2.jpg'
     },
     {
       id: 3,
-      name: 'Sophia Chen',
+      name: 'Pippa Berryton',
       title: 'Product Development',
-      bio: 'Sophia creates our delicious strawberry products and is always experimenting with new recipes.',
+      bio: 'Pippa creates our delicious strawberry products and is always experimenting with new recipes.',
       image: '/images/team-3.jpg'
     }
   ];

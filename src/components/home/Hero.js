@@ -6,7 +6,7 @@ import { Button } from '../common/Button';
 
 const HeroSection = styled.section`
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
     url('/images/hero-strawberries.jpg');
   background-size: cover;
   background-position: center;
@@ -31,7 +31,7 @@ const HeroTitle = styled.h1`
   color: ${({ theme }) => theme.colors.light};
   
   span {
-    color: ${({ theme }) => theme.colors.primary};
+    color: ${({ theme }) => theme.colors.accent};
   }
   
   @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {

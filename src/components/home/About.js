@@ -55,7 +55,7 @@ const AboutImageAccent = styled.div`
   position: absolute;
   width: 200px;
   height: 200px;
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.tertiary};
   border-radius: ${({ theme }) => theme.borderRadius.medium};
   z-index: -1;
   

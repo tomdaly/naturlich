@@ -52,7 +52,7 @@ export const Button = styled.button`
           padding: ${theme.spacing.xs} ${theme.spacing.sm};
           
           &:hover, &:focus {
-            background-color: rgba(250, 80, 83, 0.1);
+            background-color: rgba(217, 68, 70, 0.1);
           }
         `;
       default:

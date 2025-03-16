@@ -6,7 +6,7 @@ import { Button } from '../components/common/Button';
 import { Link } from 'react-router-dom';
 
 const PageHeader = styled.div`
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.accent};
   padding: ${({ theme }) => theme.spacing.xxl} 0;
   color: ${({ theme }) => theme.colors.light};
   text-align: center;
@@ -87,7 +87,7 @@ const CategoryTab = styled.button`
   padding: ${({ theme }) => `${theme.spacing.sm} ${theme.spacing.lg}`};
   margin: ${({ theme }) => theme.spacing.xs};
   background-color: ${({ active, theme }) => 
-    active ? theme.colors.primary : theme.colors.gray};
+    active ? theme.colors.tertiary : theme.colors.gray};
   color: ${({ active, theme }) => 
     active ? theme.colors.light : theme.colors.textPrimary};
   border: none;
@@ -98,7 +98,7 @@ const CategoryTab = styled.button`
   
   &:hover {
     background-color: ${({ active, theme }) => 
-      active ? theme.colors.primaryDark : theme.colors.darkGray};
+      active ? theme.colors.tertiaryDark : theme.colors.darkGray};
     color: ${({ theme }) => theme.colors.light};
   }
 `;
@@ -118,7 +118,7 @@ const ProductsPage = () => {
       id: 1,
       title: 'Fresh Strawberries',
       description: 'Hand-picked, organic strawberries at the peak of ripeness.',
-      price: '$6.99',
+      price: '£5.49',
       image: '/images/fresh-strawberries.jpg',
       category: 'fresh',
       link: '/products/fresh-strawberries'
@@ -127,7 +127,7 @@ const ProductsPage = () => {
       id: 2,
       title: 'Premium Strawberries',
       description: 'Our largest, juiciest strawberries selected for their exceptional flavor.',
-      price: '$8.99',
+      price: '£6.99',
       image: '/images/premium-strawberries.jpg',
       category: 'fresh',
       link: '/products/premium-strawberries'
@@ -136,7 +136,7 @@ const ProductsPage = () => {
       id: 3,
       title: 'Strawberry Jam',
       description: 'Homemade jam made with our organic strawberries and natural sweeteners.',
-      price: '$8.99',
+      price: '£6.99',
       image: '/images/strawberry-jam.jpg',
       category: 'processed',
       link: '/products/strawberry-jam'
@@ -145,7 +145,7 @@ const ProductsPage = () => {
       id: 4,
       title: 'Strawberry Juice',
       description: 'Refreshing, 100% pure strawberry juice with no added sugars or preservatives.',
-      price: '$7.99',
+      price: '£5.99',
       image: '/images/strawberry-juice.jpg',
       category: 'processed',
       link: '/products/strawberry-juice'
@@ -154,7 +154,7 @@ const ProductsPage = () => {
       id: 5,
       title: 'Frozen Strawberries',
       description: 'Flash-frozen at peak ripeness to preserve flavor and nutrients.',
-      price: '$5.99',
+      price: '£4.49',
       image: '/images/frozen-strawberries.jpg',
       category: 'processed',
       link: '/products/frozen-strawberries'
@@ -163,7 +163,7 @@ const ProductsPage = () => {
       id: 6,
       title: 'Gift Box',
       description: 'Perfect gift featuring our premium strawberries and strawberry products.',
-      price: '$24.99',
+      price: '£19.99',
       image: '/images/gift-box.jpg',
       category: 'gifts',
       link: '/products/gift-boxes'
@@ -172,7 +172,7 @@ const ProductsPage = () => {
       id: 7,
       title: 'Strawberry Basket',
       description: 'A beautiful basket filled with fresh strawberries and gourmet treats.',
-      price: '$34.99',
+      price: '£27.99',
       image: '/images/strawberry-basket.jpg',
       category: 'gifts',
       link: '/products/strawberry-basket'
@@ -181,7 +181,7 @@ const ProductsPage = () => {
       id: 8,
       title: 'Dried Strawberries',
       description: 'Sweet, chewy dried strawberries - a perfect healthy snack.',
-      price: '$9.99',
+      price: '£7.99',
       image: '/images/dried-strawberries.jpg',
       category: 'processed',
       link: '/products/dried-strawberries'
@@ -190,7 +190,7 @@ const ProductsPage = () => {
       id: 9,
       title: 'Strawberry Honey',
       description: 'Our special honey infused with the essence of strawberries.',
-      price: '$12.99',
+      price: '£9.99',
       image: '/images/strawberry-honey.jpg',
       category: 'processed',
       link: '/products/strawberry-honey'

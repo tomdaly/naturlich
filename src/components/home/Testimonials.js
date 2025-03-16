@@ -96,21 +96,21 @@ const Testimonials = () => {
     {
       id: 1,
       text: "I've never tasted strawberries this sweet and flavorful before. Naturlich's organic strawberries have become a staple in my home. My kids love them!",
-      author: "Sarah Johnson",
-      title: "Health Coach",
+      author: "Emily Thompson",
+      title: "Nutritionist",
       image: "/images/testimonial-1.jpg"
     },
     {
       id: 2,
       text: "As a chef, I'm very particular about my ingredients. Naturlich strawberries are consistently excellent - perfect ripeness, flavor, and they hold up well in my desserts.",
-      author: "Michael Chen",
+      author: "James Wilson",
       title: "Executive Chef",
       image: "/images/testimonial-2.jpg"
     },
     {
       id: 3,
-      text: "The difference in taste between Naturlich strawberries and store-bought ones is remarkable. These berries remind me of the ones from my grandmother's garden.",
-      author: "Emma Rodriguez",
+      text: "The difference in taste between Naturlich strawberries and store-bought ones is remarkable. These berries remind me of the ones from my grandmother's garden in Kent.",
+      author: "Olivia Parker",
       title: "Food Blogger",
       image: "/images/testimonial-3.jpg"
     }

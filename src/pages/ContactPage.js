@@ -6,7 +6,7 @@ import { Button } from '../components/common/Button';
 import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaClock } from 'react-icons/fa';
 
 const PageHeader = styled.div`
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.secondary};
   padding: ${({ theme }) => theme.spacing.xxl} 0;
   color: ${({ theme }) => theme.colors.light};
   text-align: center;
@@ -272,7 +272,7 @@ const ContactPage = () => {
                   </InfoIcon>
                   <InfoContent>
                     <InfoLabel>Our Location</InfoLabel>
-                    <InfoValue>123 Berry Lane, Strawberry Fields, CA 90210</InfoValue>
+                    <InfoValue>123 Berry Lane, Strawberry Fields, Kent ME19 6JU</InfoValue>
                   </InfoContent>
                 </InfoItem>
                 
@@ -282,7 +282,7 @@ const ContactPage = () => {
                   </InfoIcon>
                   <InfoContent>
                     <InfoLabel>Phone Number</InfoLabel>
-                    <InfoValue>(123) 456-7890</InfoValue>
+                    <InfoValue>01234 567890</InfoValue>
                   </InfoContent>
                 </InfoItem>
                 
@@ -292,7 +292,7 @@ const ContactPage = () => {
                   </InfoIcon>
                   <InfoContent>
                     <InfoLabel>Email Address</InfoLabel>
-                    <InfoValue>info@naturlich.com</InfoValue>
+                    <InfoValue>info@naturlich.co.uk</InfoValue>
                   </InfoContent>
                 </InfoItem>
                 
@@ -311,7 +311,7 @@ const ContactPage = () => {
               
               <MapContainer>
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.7462606519114!2d-122.41941548468204!3d37.77492997975903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2suk!4v1615552573877!5m2!1sen!2suk" 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2495.6988622694036!2d0.4034991156741965!3d51.29784647959757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47df4b2a49a5d8ab%3A0x95009f275b7bce8c!2sKent%20ME19%206JU!5e0!3m2!1sen!2suk!4v1616252573877!5m2!1sen!2suk" 
                   allowFullScreen="" 
                   loading="lazy"
                   title="Naturlich Farm Location"

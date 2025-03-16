@@ -33,7 +33,7 @@ const FeatureCard = styled.div`
 
 const FeatureIcon = styled.div`
   font-size: 3rem;
-  color: ${({ theme }) => theme.colors.primary};
+  color: ${({ theme }) => theme.colors.tertiary};
   margin-bottom: ${({ theme }) => theme.spacing.md};
 `;
 

@@ -5,7 +5,7 @@ import { Section } from '../common/Section';
 import { Button } from '../common/Button';
 
 const NewsletterSection = styled(Section)`
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.accent};
   color: ${({ theme }) => theme.colors.light};
 `;
 

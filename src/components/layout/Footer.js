@@ -149,9 +149,9 @@ const Footer = () => {
         <FooterSection>
           <FooterTitle>Contact Us</FooterTitle>
           <FooterText>123 Berry Lane</FooterText>
-          <FooterText>Strawberry Fields, CA 90210</FooterText>
-          <FooterText>Phone: (123) 456-7890</FooterText>
-          <FooterText>Email: info@naturlich.com</FooterText>
+          <FooterText>Strawberry Fields, Kent ME19 6JU</FooterText>
+          <FooterText>Phone: 01234 567890</FooterText>
+          <FooterText>Email: info@naturlich.co.uk</FooterText>
         </FooterSection>
       </FooterContainer>
       
