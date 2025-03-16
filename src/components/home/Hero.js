@@ -76,10 +76,11 @@ const Hero = () => {
       <Container>
         <HeroContent>
           <HeroTitle>
-            Naturally <span>Sweet</span>, Naturally <span>Grown</span>
+            simply <span>berry</span> good.
           </HeroTitle>
           <HeroSubtitle>
-            simply berry good.
+            Premium organic strawberries grown with care and love. 
+            Experience the natural sweetness of our hand-picked berries.
           </HeroSubtitle>
           <ButtonGroup>
             <Button as={Link} to="/shop" size="large">
