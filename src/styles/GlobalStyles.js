@@ -17,6 +17,7 @@ export const GlobalStyles = createGlobalStyle`
     background-color: ${({ theme }) => theme.colors.background};
     line-height: 1.6;
     overflow-x: hidden;
+    font-size: 1.1rem;
   }
 
   h1, h2, h3, h4, h5, h6 {

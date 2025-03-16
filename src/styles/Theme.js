@@ -20,8 +20,8 @@ export const theme = {
     error: '#D32F2F',
   },
   fonts: {
-    heading: "'Playfair Display', serif",
-    body: "'Montserrat', sans-serif",
+    heading: "'Vidaloka', serif",
+    body: "'Yrsa', serif",
   },
   fontSizes: {
     small: '0.875rem',

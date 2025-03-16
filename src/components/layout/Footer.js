@@ -92,7 +92,7 @@ const Copyright = styled.p`
 const Logo = styled.div`
   font-family: ${({ theme }) => theme.fonts.heading};
   font-size: ${({ theme }) => theme.fontSizes.xlarge};
-  font-weight: 700;
+  letter-spacing: 1px;
   color: ${({ theme }) => theme.colors.light};
   margin-bottom: ${({ theme }) => theme.spacing.md};
 `;

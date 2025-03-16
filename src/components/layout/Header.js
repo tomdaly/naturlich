@@ -29,7 +29,7 @@ const HeaderContainer = styled(Container)`
 const Logo = styled(Link)`
   font-family: ${({ theme }) => theme.fonts.heading};
   font-size: ${({ theme }) => theme.fontSizes.xlarge};
-  font-weight: 700;
+  letter-spacing: 1px;
   color: ${({ theme }) => theme.colors.primary};
   transition: color ${({ theme }) => theme.transitions.short};
   
