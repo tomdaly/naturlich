@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from './styles/GlobalStyles';
 import { theme } from './styles/Theme';
@@ -9,11 +9,11 @@ import { theme } from './styles/Theme';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <ThemeProvider theme={theme}>
         <GlobalStyles />
         <App />
       </ThemeProvider>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
