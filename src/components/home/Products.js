@@ -92,7 +92,7 @@ const Products = () => {
       title: 'Fresh Strawberries',
       description: 'Hand-picked, organic strawberries at the peak of ripeness.',
       price: '£5.49',
-      image: '/images/fresh-strawberries.jpg',
+      image: process.env.PUBLIC_URL + '/images/fresh-strawberries.jpg',
       link: '/products/fresh-strawberries',
       features: [
         'Organically grown',
@@ -106,7 +106,7 @@ const Products = () => {
       title: 'Strawberry Jam',
       description: 'Homemade jam made with our organic strawberries and natural sweeteners.',
       price: '£6.99',
-      image: '/images/strawberry-jam.jpg',
+      image: process.env.PUBLIC_URL + '/images/strawberry-jam.jpg',
       link: '/products/strawberry-jam',
       features: [
         'Made with 100% organic strawberries',
@@ -120,7 +120,7 @@ const Products = () => {
       title: 'Gift Box',
       description: 'Perfect gift featuring our premium strawberries and strawberry products.',
       price: '£19.99',
-      image: '/images/gift-box.jpg',
+      image: process.env.PUBLIC_URL + '/images/gift-box.jpg',
       link: '/products/gift-boxes',
       features: [
         'Contains fresh strawberries',

@@ -7,7 +7,7 @@ import { Button } from '../common/Button';
 const HeroSection = styled.section`
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-    url('/images/hero-strawberries.jpg');
+    url(${process.env.PUBLIC_URL + '/images/hero-strawberries.jpg'});
   background-size: cover;
   background-position: center;
   display: flex;

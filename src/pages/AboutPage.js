@@ -171,7 +171,7 @@ const AboutPage = () => {
             
             <ContentColumn>
               <ImageContainer>
-                <img src="/images/about-story.jpg" alt="Naturlich farm in the early days" />
+                <img src={process.env.PUBLIC_URL + "/images/about-story.jpg"} alt="Naturlich farm in the early days" />
               </ImageContainer>
             </ContentColumn>
           </TwoColumnGrid>
@@ -179,7 +179,7 @@ const AboutPage = () => {
           <TwoColumnGrid style={{ marginTop: '5rem' }}>
             <ContentColumn reverse>
               <ImageContainer>
-                <img src="/images/about-mission.jpg" alt="Sustainable farming practices at Naturlich" />
+                <img src={process.env.PUBLIC_URL + "/images/about-mission.jpg"} alt="Sustainable farming practices at Naturlich" />
               </ImageContainer>
             </ContentColumn>
             
@@ -212,7 +212,7 @@ const AboutPage = () => {
             <TeamGrid>
               {teamMembers.map(member => (
                 <TeamMember key={member.id}>
-                  <TeamMemberImage src={member.image} alt={member.name} />
+                  <TeamMemberImage src={process.env.PUBLIC_URL + member.image} alt={member.name} />
                   <TeamMemberName>{member.name}</TeamMemberName>
                   <TeamMemberTitle>{member.title}</TeamMemberTitle>
                   <TeamMemberBio>{member.bio}</TeamMemberBio>

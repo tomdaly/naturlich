@@ -83,7 +83,7 @@ const ImageSection = styled.div`
   margin: ${({ theme }) => theme.spacing.xxl} 0;
   position: relative;
   height: 400px;
-  background-image: url('/images/sustainability-banner.jpg');
+  background-image: url(${process.env.PUBLIC_URL + '/images/sustainability-banner.jpg'});
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

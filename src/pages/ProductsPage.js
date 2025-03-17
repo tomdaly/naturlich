@@ -131,7 +131,7 @@ const ProductsPage = () => {
       title: 'Fresh Strawberries',
       description: 'Hand-picked, organic strawberries at the peak of ripeness.',
       price: '£5.49',
-      image: '/images/fresh-strawberries.jpg',
+      image: process.env.PUBLIC_URL + '/images/fresh-strawberries.jpg',
       category: 'fresh',
       link: '/products/fresh-strawberries'
     },
@@ -140,7 +140,7 @@ const ProductsPage = () => {
       title: 'Premium Strawberries',
       description: 'Our largest, juiciest strawberries selected for their exceptional flavor.',
       price: '£6.99',
-      image: '/images/premium-strawberries.jpg',
+      image: process.env.PUBLIC_URL + '/images/premium-strawberries.jpg',
       category: 'fresh',
       link: '/products/premium-strawberries'
     },
@@ -149,7 +149,7 @@ const ProductsPage = () => {
       title: 'Strawberry Jam',
       description: 'Homemade jam made with our organic strawberries and natural sweeteners.',
       price: '£6.99',
-      image: '/images/strawberry-jam.jpg',
+      image: process.env.PUBLIC_URL + '/images/strawberry-jam.jpg',
       category: 'processed',
       link: '/products/strawberry-jam'
     },
@@ -158,7 +158,7 @@ const ProductsPage = () => {
       title: 'Strawberry Juice',
       description: 'Refreshing, 100% pure strawberry juice with no added sugars or preservatives.',
       price: '£5.99',
-      image: '/images/strawberry-juice.jpg',
+      image: process.env.PUBLIC_URL + '/images/strawberry-juice.jpg',
       category: 'processed',
       link: '/products/strawberry-juice'
     },
@@ -167,7 +167,7 @@ const ProductsPage = () => {
       title: 'Frozen Strawberries',
       description: 'Flash-frozen at peak ripeness to preserve flavor and nutrients.',
       price: '£4.49',
-      image: '/images/frozen-strawberries.jpg',
+      image: process.env.PUBLIC_URL + '/images/frozen-strawberries.jpg',
       category: 'processed',
       link: '/products/frozen-strawberries'
     },
@@ -176,7 +176,7 @@ const ProductsPage = () => {
       title: 'Gift Box',
       description: 'Perfect gift featuring our premium strawberries and strawberry products.',
       price: '£19.99',
-      image: '/images/gift-box.jpg',
+      image: process.env.PUBLIC_URL + '/images/gift-box.jpg',
       category: 'gifts',
       link: '/products/gift-boxes'
     },
@@ -185,7 +185,7 @@ const ProductsPage = () => {
       title: 'Strawberry Basket',
       description: 'A beautiful basket filled with fresh strawberries and gourmet treats.',
       price: '£27.99',
-      image: '/images/strawberry-basket.jpg',
+      image: process.env.PUBLIC_URL + '/images/strawberry-basket.jpg',
       category: 'gifts',
       link: '/products/strawberry-basket'
     },
@@ -194,7 +194,7 @@ const ProductsPage = () => {
       title: 'Dried Strawberries',
       description: 'Sweet, chewy dried strawberries - a perfect healthy snack.',
       price: '£7.99',
-      image: '/images/dried-strawberries.jpg',
+      image: process.env.PUBLIC_URL + '/images/dried-strawberries.jpg',
       category: 'processed',
       link: '/products/dried-strawberries'
     },
@@ -203,7 +203,7 @@ const ProductsPage = () => {
       title: 'Strawberry Honey',
       description: 'Our special honey infused with the essence of strawberries.',
       price: '£9.99',
-      image: '/images/strawberry-honey.jpg',
+      image: process.env.PUBLIC_URL + '/images/strawberry-honey.jpg',
       category: 'processed',
       link: '/products/strawberry-honey'
     }

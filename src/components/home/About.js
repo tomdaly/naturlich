@@ -140,7 +140,7 @@ const About = () => {
         </AboutContent>
         
         <AboutImageContainer>
-          <AboutImage src="/images/strawberry-farm.jpg" alt="Naturlich strawberry farm" />
+          <AboutImage src={process.env.PUBLIC_URL + "/images/strawberry-farm.jpg"} alt="Naturlich strawberry farm" />
           <AboutImageAccent className="top-left" />
           <AboutImageAccent className="bottom-right" />
         </AboutImageContainer>
