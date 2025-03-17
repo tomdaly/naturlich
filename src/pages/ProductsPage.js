@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { Container } from '../components/common/Container';
 import { Section } from '../components/common/Section';
 import { Button } from '../components/common/Button';
-import { Link } from 'react-router-dom';
 import Modal from '../components/common/Modal';
 import ProductDetail from '../components/products/ProductDetail';
 
