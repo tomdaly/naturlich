@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
+import ScrollToTop from './components/common/ScrollToTop';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ProductsPage from './pages/ProductsPage';
@@ -11,6 +12,7 @@ import SustainabilityPage from './pages/SustainabilityPage';
 function App() {
   return (
     <>
+      <ScrollToTop />
       <Header />
       <main>
         <Routes>
