@@ -1,0 +1,24 @@
+This is a placeholder file. In a real project, you would need to add the following images:
+
+- hero-strawberries.jpg
+- fresh-strawberries.jpg
+- premium-strawberries.jpg
+- strawberry-jam.jpg
+- strawberry-juice.jpg
+- frozen-strawberries.jpg
+- gift-box.jpg
+- strawberry-basket.jpg
+- dried-strawberries.jpg
+- strawberry-honey.jpg
+- about-story.jpg
+- about-mission.jpg
+- strawberry-farm.jpg
+- sustainability-banner.jpg
+- team-1.jpg
+- team-2.jpg
+- team-3.jpg
+- testimonial-1.jpg
+- testimonial-2.jpg
+- testimonial-3.jpg
+
+You can find suitable images on stock photo websites or create your own.
