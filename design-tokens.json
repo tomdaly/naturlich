@@ -1,253 +1,225 @@
 {
+  "breakpoints": {
+    "lg": {
+      "$type": "breakpoint",
+      "$value": "1200px"
+    },
+    "md": {
+      "$type": "breakpoint",
+      "$value": "900px"
+    },
+    "sm": {
+      "$type": "breakpoint",
+      "$value": "600px"
+    },
+    "xl": {
+      "$type": "breakpoint",
+      "$value": "1536px"
+    },
+    "xs": {
+      "$type": "breakpoint",
+      "$value": "0px"
+    }
+  },
   "colors": {
-    "primary": {
-      "thunderbird": {
-        "$value": "#BD5319",
-        "$type": "color",
-        "$description": "Main brand color for logos, CTA buttons, and key highlights."
-      },
-      "carnation": {
-        "$value": "#FA5053",
-        "$type": "color",
-        "$description": "Bold hue for energetic highlights, promotional banners, and attention-grabbing elements."
-      },
-      "peep": {
-        "$value": "#F9E8EA",
-        "$type": "color",
-        "$description": "Soft background color for sections, product labels, and branding."
-      }
-    },
-    "secondary": {
-      "espresso": {
-        "$value": "#69321A",
-        "$type": "color",
-        "$description": "Deep contrast color for text, headings, and packaging outlines."
-      },
-      "cashmere": {
-        "$value": "#E8C3B0",
-        "$type": "color",
-        "$description": "Muted background/accent color for subtle overlays and packaging details."
-      }
-    },
-    "tertiary": {
-      "cannon": {
-        "$value": "#914C5E",
-        "$type": "color",
-        "$description": "Accent color for highlights, social media templates, and limited-edition packaging."
-      },
-      "barley": {
-        "$value": "#A98D65",
-        "$type": "color",
-        "$description": "Subtle background and border color reinforcing an organic aesthetic."
-      }
-    },
     "neutrals": {
-      "lightestGrey": {
-        "$value": "#f9f9f9",
-        "$type": "color",
-        "$description": "Very light grey, ideal for backgrounds and subtle dividers."
-      },
-      "lightGrey": {
-        "$value": "#E0E0E0",
-        "$type": "color",
-        "$description": "Soft grey for UI elements, borders, and secondary backgrounds."
-      },
-      "mediumLightGrey": {
-        "$value": "#C4C4C4",
-        "$type": "color",
-        "$description": "Neutral grey for less prominent text and input fields."
-      },
-      "mediumGrey": {
-        "$value": "#9E9E9E",
-        "$type": "color",
-        "$description": "Balanced grey for body text, icons, and neutral accents."
-      },
       "darkGrey": {
-        "$value": "#616161",
         "$type": "color",
+        "$value": "#616161",
         "$description": "Darker grey for contrast, subtitles, and UI depth."
       },
       "darkestGrey": {
-        "$value": "#424242",
         "$type": "color",
+        "$value": "#424242",
         "$description": "Deep, nearly black grey for high contrast text and overlays."
+      },
+      "lightGrey": {
+        "$type": "color",
+        "$value": "#E0E0E0",
+        "$description": "Soft grey for UI elements, borders, and secondary backgrounds."
+      },
+      "lightestGrey": {
+        "$type": "color",
+        "$value": "#F9F9F9",
+        "$description": "Very light grey, ideal for backgrounds and subtle dividers."
+      },
+      "mediumGrey": {
+        "$type": "color",
+        "$value": "#9E9E9E",
+        "$description": "Balanced grey for body text, icons, and neutral accents."
+      },
+      "mediumLightGrey": {
+        "$type": "color",
+        "$value": "#C4C4C4",
+        "$description": "Neutral grey for less prominent text and input fields."
       }
+    },
+    "primary": {
+      "carnation": {
+        "$type": "color",
+        "$value": "#FA5053",
+        "$description": "Bold hue for energetic highlights, promotional banners, and attention-grabbing elements."
+      },
+      "peep": {
+        "$type": "color",
+        "$value": "#F9E8EA",
+        "$description": "Soft background color for sections, product labels, and branding."
+      },
+      "thunderbird": {
+        "$type": "color",
+        "$value": "#BD5319",
+        "$description": "Main brand color for logos, CTA buttons, and key highlights."
+      }
+    },
+    "secondary": {
+      "cashmere": {
+        "$type": "color",
+        "$value": "#E8C3B0",
+        "$description": "Muted background/accent color for subtle overlays and packaging details."
+      },
+      "espresso": {
+        "$type": "color",
+        "$value": "#69321A",
+        "$description": "Deep contrast color for text, headings, and packaging outlines."
+      }
+    },
+    "tertiary": {
+      "barley": {
+        "$type": "color",
+        "$value": "#A98D65",
+        "$description": "Subtle background and border color reinforcing an organic aesthetic."
+      },
+      "cannon": {
+        "$type": "color",
+        "$value": "#914C5E",
+        "$description": "Accent color for highlights, social media templates, and limited-edition packaging."
+      }
+    }
+  },
+  "spacing": {
+    "3xl": {
+      "$type": "spacing",
+      "$value": "48px"
+    },
+    "4xl": {
+      "$type": "spacing",
+      "$value": "64px"
+    },
+    "5xl": {
+      "$type": "spacing",
+      "$value": "80px"
+    },
+    "6xl": {
+      "$type": "spacing",
+      "$value": "96px"
+    },
+    "lg": {
+      "$type": "spacing",
+      "$value": "24px"
+    },
+    "md": {
+      "$type": "spacing",
+      "$value": "16px"
+    },
+    "sm": {
+      "$type": "spacing",
+      "$value": "12px"
+    },
+    "xl": {
+      "$type": "spacing",
+      "$value": "32px"
+    },
+    "xs": {
+      "$type": "spacing",
+      "$value": "8px"
+    },
+    "xxl": {
+      "$type": "spacing",
+      "$value": "40px"
+    },
+    "xxs": {
+      "$type": "spacing",
+      "$value": "4px"
     }
   },
   "typography": {
     "cabin": {
-      "$value": "'Cabin', sans-serif",
       "$type": "fontFamily",
-      "fontSize": {
-        "caption": {
-          "$value": "12px",
-          "$type": "fontSize"
-        },
-        "small": {
-          "$value": "14px",
-          "$type": "fontSize"
-        },
-        "medium": {
-          "$value": "16px",
-          "$type": "fontSize"
-        },
-        "large": {
-          "$value": "24px",
-          "$type": "fontSize"
-        }
-      },
-      "fontWeight": {
-        "regular": {
-          "$value": "normal",
-          "$type": "fontWeight"
-        },
-        "bold": {
-          "$value": "bold",
-          "$type": "fontWeight"
-        }
-      }
-    },
-    "yrsa": {
-      "fontFamily": {
-        "$value": "'Yrsa', serif",
-        "$type": "fontFamily"
-      },
-      "fontSize": {
-        "title1": {
-          "$value": "60px",
-          "$type": "fontSize"
-        },
-        "title2": {
-          "$value": "48px",
-          "$type": "fontSize"
-        },
-        "title3": {
-          "$value": "34px",
-          "$type": "fontSize"
-        },
-        "heading": {
-          "$value": "24px",
-          "$type": "fontSize"
-        }
-      },
-      "fontWeight": {
-        "bold": {
-          "$value": "bold",
-          "$type": "fontWeight"
-        }
-      }
+      "$value": "'Cabin', sans-serif"
     },
     "cantarell": {
       "fontFamily": {
-        "$value": "'Cantarell', serif",
-        "$type": "fontFamily"
+        "$type": "fontFamily",
+        "$value": "'Cantarell', serif"
       },
       "fontSize": {
         "subheadline": {
-          "$value": "18px",
-          "$type": "fontSize"
+          "$type": "fontSize",
+          "$value": "18px"
         },
         "sublogo": {
-          "$value": "36px",
-          "$type": "fontSize"
+          "$type": "fontSize",
+          "$value": "36px"
         }
       },
       "fontWeight": {
-        "normal": {
-          "$value": "normal",
-          "$type": "fontWeight"
-        },
         "bold": {
-          "$value": "bold",
-          "$type": "fontWeight"
+          "$type": "fontWeight",
+          "$value": "bold"
+        },
+        "normal": {
+          "$type": "fontWeight",
+          "$value": "normal"
         }
       }
     },
     "youngSerif": {
       "fontFamily": {
-        "$value": "'Young Serif', serif",
-        "$type": "fontFamily"
+        "$type": "fontFamily",
+        "$value": "'Young Serif', serif"
       },
       "fontSize": {
         "logo": {
-          "$value": "128px",
-          "$type": "fontSize"
+          "$type": "fontSize",
+          "$value": "128px"
         }
       },
       "fontWeight": {
         "normal": {
-          "$value": "normal",
-          "$type": "fontWeight"
+          "$type": "fontWeight",
+          "$value": "normal"
         }
       }
-    }
-  },
-  "spacing": {
-    "xxs": {
-      "$value": "4px",
-      "$type": "spacing"
     },
-    "xs": {
-      "$value": "8px",
-      "$type": "spacing"
-    },
-    "sm": {
-      "$value": "12px",
-      "$type": "spacing"
-    },
-    "md": {
-      "$value": "16px",
-      "$type": "spacing"
-    },
-    "lg": {
-      "$value": "24px",
-      "$type": "spacing"
-    },
-    "xl": {
-      "$value": "32px",
-      "$type": "spacing"
-    },
-    "xxl": {
-      "$value": "40px",
-      "$type": "spacing"
-    },
-    "3xl": {
-      "$value": "48px",
-      "$type": "spacing"
-    },
-    "4xl": {
-      "$value": "64px",
-      "$type": "spacing"
-    },
-    "5xl": {
-      "$value": "80px",
-      "$type": "spacing"
-    },
-    "6xl": {
-      "$value": "96px",
-      "$type": "spacing"
-    }
-  },
-  "breakpoints": {
-    "xs": {
-      "$value": "0px",
-      "$type": "breakpoint"
-    },
-    "sm": {
-      "$value": "600px",
-      "$type": "breakpoint"
-    },
-    "md": {
-      "$value": "900px",
-      "$type": "breakpoint"
-    },
-    "lg": {
-      "$value": "1200px",
-      "$type": "breakpoint"
-    },
-    "xl": {
-      "$value": "1536px",
-      "$type": "breakpoint"
+    "yrsa": {
+      "fontFamily": {
+        "$type": "fontFamily",
+        "$value": "'Yrsa', serif"
+      },
+      "fontSize": {
+        "heading": {
+          "$type": "fontSize",
+          "$value": "24px"
+        },
+        "title1": {
+          "$type": "fontSize",
+          "$value": "60px"
+        },
+        "title2": {
+          "$type": "fontSize",
+          "$value": "48px"
+        },
+        "title3": {
+          "$type": "fontSize",
+          "$value": "34px"
+        }
+      },
+      "fontWeight": {
+        "bold": {
+          "$type": "fontWeight",
+          "$value": "bold"
+        }
+      }
     }
   }
 }
