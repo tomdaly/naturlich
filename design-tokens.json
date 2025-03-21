@@ -1,0 +1,253 @@
+{
+  "colors": {
+    "primary": {
+      "thunderbird": {
+        "$value": "#BD5319",
+        "$type": "color",
+        "$description": "Main brand color for logos, CTA buttons, and key highlights."
+      },
+      "carnation": {
+        "$value": "#FA5053",
+        "$type": "color",
+        "$description": "Bold hue for energetic highlights, promotional banners, and attention-grabbing elements."
+      },
+      "peep": {
+        "$value": "#F9E8EA",
+        "$type": "color",
+        "$description": "Soft background color for sections, product labels, and branding."
+      }
+    },
+    "secondary": {
+      "espresso": {
+        "$value": "#69321A",
+        "$type": "color",
+        "$description": "Deep contrast color for text, headings, and packaging outlines."
+      },
+      "cashmere": {
+        "$value": "#E8C3B0",
+        "$type": "color",
+        "$description": "Muted background/accent color for subtle overlays and packaging details."
+      }
+    },
+    "tertiary": {
+      "cannon": {
+        "$value": "#914C5E",
+        "$type": "color",
+        "$description": "Accent color for highlights, social media templates, and limited-edition packaging."
+      },
+      "barley": {
+        "$value": "#A98D65",
+        "$type": "color",
+        "$description": "Subtle background and border color reinforcing an organic aesthetic."
+      }
+    },
+    "neutrals": {
+      "lightestGrey": {
+        "$value": "#f9f9f9",
+        "$type": "color",
+        "$description": "Very light grey, ideal for backgrounds and subtle dividers."
+      },
+      "lightGrey": {
+        "$value": "#E0E0E0",
+        "$type": "color",
+        "$description": "Soft grey for UI elements, borders, and secondary backgrounds."
+      },
+      "mediumLightGrey": {
+        "$value": "#C4C4C4",
+        "$type": "color",
+        "$description": "Neutral grey for less prominent text and input fields."
+      },
+      "mediumGrey": {
+        "$value": "#9E9E9E",
+        "$type": "color",
+        "$description": "Balanced grey for body text, icons, and neutral accents."
+      },
+      "darkGrey": {
+        "$value": "#616161",
+        "$type": "color",
+        "$description": "Darker grey for contrast, subtitles, and UI depth."
+      },
+      "darkestGrey": {
+        "$value": "#424242",
+        "$type": "color",
+        "$description": "Deep, nearly black grey for high contrast text and overlays."
+      }
+    }
+  },
+  "typography": {
+    "cabin": {
+      "$value": "'Cabin', sans-serif",
+      "$type": "fontFamily",
+      "fontSize": {
+        "caption": {
+          "$value": "12px",
+          "$type": "fontSize"
+        },
+        "small": {
+          "$value": "14px",
+          "$type": "fontSize"
+        },
+        "medium": {
+          "$value": "16px",
+          "$type": "fontSize"
+        },
+        "large": {
+          "$value": "24px",
+          "$type": "fontSize"
+        }
+      },
+      "fontWeight": {
+        "regular": {
+          "$value": "normal",
+          "$type": "fontWeight"
+        },
+        "bold": {
+          "$value": "bold",
+          "$type": "fontWeight"
+        }
+      }
+    },
+    "yrsa": {
+      "fontFamily": {
+        "$value": "'Yrsa', serif",
+        "$type": "fontFamily"
+      },
+      "fontSize": {
+        "title1": {
+          "$value": "60px",
+          "$type": "fontSize"
+        },
+        "title2": {
+          "$value": "48px",
+          "$type": "fontSize"
+        },
+        "title3": {
+          "$value": "34px",
+          "$type": "fontSize"
+        },
+        "heading": {
+          "$value": "24px",
+          "$type": "fontSize"
+        }
+      },
+      "fontWeight": {
+        "bold": {
+          "$value": "bold",
+          "$type": "fontWeight"
+        }
+      }
+    },
+    "cantarell": {
+      "fontFamily": {
+        "$value": "'Cantarell', serif",
+        "$type": "fontFamily"
+      },
+      "fontSize": {
+        "subheadline": {
+          "$value": "18px",
+          "$type": "fontSize"
+        },
+        "sublogo": {
+          "$value": "36px",
+          "$type": "fontSize"
+        }
+      },
+      "fontWeight": {
+        "normal": {
+          "$value": "normal",
+          "$type": "fontWeight"
+        },
+        "bold": {
+          "$value": "bold",
+          "$type": "fontWeight"
+        }
+      }
+    },
+    "youngSerif": {
+      "fontFamily": {
+        "$value": "'Young Serif', serif",
+        "$type": "fontFamily"
+      },
+      "fontSize": {
+        "logo": {
+          "$value": "128px",
+          "$type": "fontSize"
+        }
+      },
+      "fontWeight": {
+        "normal": {
+          "$value": "normal",
+          "$type": "fontWeight"
+        }
+      }
+    }
+  },
+  "spacing": {
+    "xxs": {
+      "$value": "4px",
+      "$type": "spacing"
+    },
+    "xs": {
+      "$value": "8px",
+      "$type": "spacing"
+    },
+    "sm": {
+      "$value": "12px",
+      "$type": "spacing"
+    },
+    "md": {
+      "$value": "16px",
+      "$type": "spacing"
+    },
+    "lg": {
+      "$value": "24px",
+      "$type": "spacing"
+    },
+    "xl": {
+      "$value": "32px",
+      "$type": "spacing"
+    },
+    "xxl": {
+      "$value": "40px",
+      "$type": "spacing"
+    },
+    "3xl": {
+      "$value": "48px",
+      "$type": "spacing"
+    },
+    "4xl": {
+      "$value": "64px",
+      "$type": "spacing"
+    },
+    "5xl": {
+      "$value": "80px",
+      "$type": "spacing"
+    },
+    "6xl": {
+      "$value": "96px",
+      "$type": "spacing"
+    }
+  },
+  "breakpoints": {
+    "xs": {
+      "$value": "0px",
+      "$type": "breakpoint"
+    },
+    "sm": {
+      "$value": "600px",
+      "$type": "breakpoint"
+    },
+    "md": {
+      "$value": "900px",
+      "$type": "breakpoint"
+    },
+    "lg": {
+      "$value": "1200px",
+      "$type": "breakpoint"
+    },
+    "xl": {
+      "$value": "1536px",
+      "$type": "breakpoint"
+    }
+  }
+}
