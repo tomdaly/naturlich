@@ -142,6 +142,65 @@
       "$value": "4px"
     }
   },
+  "transitions": {
+    "$type": "transition",
+    "durations": {
+      "$type": "duration",
+      "instant": {
+        "$type": "duration",
+        "$value": "0ms"
+      },
+      "long": {
+        "$type": "duration",
+        "$value": "600ms"
+      },
+      "medium": {
+        "$type": "duration",
+        "$value": "300ms"
+      },
+      "short": {
+        "$type": "duration",
+        "$value": "100ms"
+      }
+    },
+    "easingFunctions": {
+      "$type": "cubicBezier",
+      "accelerate": {
+        "$type": "cubicBezier",
+        "$value": [
+          0.5,
+          0,
+          1,
+          1
+        ]
+      },
+      "decelerate": {
+        "$type": "cubicBezier",
+        "$value": [
+          0,
+          0,
+          0.5,
+          1
+        ]
+      }
+    },
+    "emphasis": {
+      "$type": "transition",
+      "$value": {
+        "delay": "{transitions.durations.instant}",
+        "duration": "{transitions.durations.medium}",
+        "timingFunction": "{transitions.easingFunctions.accelerate}"
+      }
+    },
+    "fade": {
+      "$type": "transition",
+      "$value": {
+        "delay": "{transitions.durations.instant}",
+        "duration": "{transitions.durations.long}",
+        "timingFunction": "{transitions.easingFunctions.decelerate}"
+      }
+    }
+  },
   "typography": {
     "cabin": {
       "$type": "fontFamily",
@@ -219,57 +278,6 @@
           "$type": "fontWeight",
           "$value": "bold"
         }
-      }
-    }
-  },
-  "transitions": {
-    "$type": "transition",
-    "emphasis": {
-      "$value": {
-        "duration": "{transitions.durations.medium}",
-        "delay": "{transitions.durations.instant}",
-        "timingFunction": "{transitions.easingFunctions.accelerate}"
-      }
-    },
-    "fade": {
-      "$value": {
-        "duration": "{transitions.durations.long}",
-        "delay": "{transitions.durations.instant}",
-        "timingFunction": "{transitions.easingFunctions.decelerate}"
-      }
-    },
-    "easingFunctions": {
-      "$type": "cubicBezier",
-      "accelerate": {
-        "$value": [
-          0.5,
-          0,
-          1,
-          1
-        ]
-      },
-      "decelerate": {
-        "$value": [
-          0,
-          0,
-          0.5,
-          1
-        ]
-      }
-    },
-    "durations": {
-      "$type": "duration",
-      "instant": {
-        "$value": "0ms"
-      },
-      "short": {
-        "$value": "100ms"
-      },
-      "medium": {
-        "$value": "300ms"
-      },
-      "long": {
-        "$value": "600ms"
       }
     }
   }
