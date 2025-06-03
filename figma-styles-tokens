@@ -1,4 +1,9 @@
 {
+  "soul greey": {
+    "$type": "color",
+    "$value": "#D9D9D9",
+    "$description": "backgrounds"
+  },
   "tangelo": {
     "$type": "color",
     "$value": "#F94D00",
