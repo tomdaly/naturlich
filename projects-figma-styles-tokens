@@ -1,0 +1,11 @@
+{
+  "tangelo": {
+    "$type": "color",
+    "$value": "#F94D00",
+    "$description": "primary text"
+  },
+  "unroasted coffee beans": {
+    "$type": "color",
+    "$value": "#C0FF33"
+  }
+}
