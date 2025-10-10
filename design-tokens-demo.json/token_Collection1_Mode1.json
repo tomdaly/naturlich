@@ -1,0 +1,14 @@
+{
+  "anotherVariable": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "testVarWithModes": {
+    "$type": "color",
+    "$value": "#c0ff33"
+  },
+  "testVarWithModesAgain": {
+    "$type": "color",
+    "$value": "#beeeef"
+  }
+}
