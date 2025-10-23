@@ -1,0 +1,14 @@
+{
+  "bool variable": {
+    "$type": "boolean",
+    "$value": false
+  },
+  "num variable": {
+    "$type": "number",
+    "$value": 3.14
+  },
+  "string variable": {
+    "$type": "string",
+    "$value": "hello world!"
+  }
+}
