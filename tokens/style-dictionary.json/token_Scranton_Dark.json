@@ -1,0 +1,32 @@
+{
+  "background": {
+    "hover": {
+      "primary": {
+        "$type": "color",
+        "$value": "#3399ff"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "#1a1a1a"
+      }
+    },
+    "primary": {
+      "$type": "color",
+      "$value": "#4da6ff"
+    },
+    "secondary": {
+      "$type": "color",
+      "$value": "#202020"
+    }
+  },
+  "text": {
+    "primary": {
+      "$type": "color",
+      "$value": "#000000"
+    },
+    "secondary": {
+      "$type": "color",
+      "$value": "#ffffff"
+    }
+  }
+}
