@@ -1,0 +1,16 @@
+{
+  "color": {
+    "background": {
+      "hover": {
+        "primary": "#003a91",
+        "secondary": "#e3eeff"
+      },
+      "primary": "#0047ab",
+      "secondary": "#ffffff"
+    },
+    "text": {
+      "primary": "#3b1010",
+      "secondary": "#0047ab"
+    }
+  }
+}
