@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<resources>
+  <color name="color_background_hover_primary">#ff3399ff</color>
+  <color name="color_background_hover_secondary">#ff1a1a1a</color>
+  <color name="color_background_primary">#ff4da6ff</color>
+  <color name="color_background_secondary">#ff202020</color>
+  <color name="color_text_primary">#ff000000</color>
+  <color name="color_text_secondary">#ffffffff</color>
+  
+</resources>
