@@ -1,0 +1,111 @@
+{
+  "Collection 1": {
+    "background": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "alpha": 1.0,
+        "hex": "#ffffff"
+      },
+      "$type": "color",
+      "$extensions": {
+        "com.zeroheight.tokenId": 29070
+      }
+    },
+    "$extensions": {
+      "com.zeroheight.collectionId": 358
+    }
+  },
+  "Collection 2": {
+    "foregorund": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alpha": 1.0,
+        "hex": "#000000"
+      },
+      "$type": "color",
+      "$extensions": {
+        "com.zeroheight.tokenId": 29071
+      }
+    },
+    "$extensions": {
+      "com.zeroheight.collectionId": 359
+    }
+  },
+  "Parent Collection": {
+    "button": {
+      "background": {
+        "$value": "{Collection 1.background}"
+      },
+      "$extensions": {
+        "com.zeroheight.tokenGroupId": 3968
+      }
+    },
+    "$extensions": {
+      "com.zeroheight.collectionId": 360
+    }
+  },
+  "Collection 4": {
+    "Color": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "alpha": 1.0,
+        "hex": "#ffffff"
+      },
+      "$type": "color",
+      "$extensions": {
+        "com.zeroheight.tokenId": 29075
+      }
+    },
+    "Color 2": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "alpha": 1.0,
+        "hex": "#ffffff"
+      },
+      "$type": "color",
+      "$extensions": {
+        "com.zeroheight.tokenId": 29077
+      }
+    },
+    "$extensions": {
+      "com.zeroheight.collectionId": 361
+    }
+  },
+  "Child Collection": {
+    "button": {
+      "$extensions": {
+        "com.zeroheight.tokenGroupId": 3971
+      },
+      "background": {
+        "$value": "{Collection 1.background}"
+      }
+    },
+    "$extensions": {
+      "com.zeroheight.collectionId": 362
+    }
+  },
+  "$extensions": {
+    "com.zeroheight.tokenSetId": 68,
+    "com.zeroheight.tokenSetVersionId": 203
+  }
+}
