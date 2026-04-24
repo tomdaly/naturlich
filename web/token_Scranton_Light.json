@@ -1,0 +1,16 @@
+{
+  "color": {
+    "background": {
+      "hover": {
+        "primary": "#003a91",
+        "secondary": "rgba(227, 238, 255, 0.9)"
+      },
+      "primary": "#0047ab",
+      "secondary": "rgba(255, 255, 255, 0.99)"
+    },
+    "text": {
+      "primary": "#3b1010",
+      "secondary": "#0047ab"
+    }
+  }
+}
