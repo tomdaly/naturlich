@@ -1,0 +1,8 @@
+:root {
+  --color-background-hover-primary: #003a91;
+  --color-background-hover-secondary: rgba(227, 238, 255, 0.9);
+  --color-background-primary: #0047ab;
+  --color-background-secondary: rgba(255, 255, 255, 0.99);
+  --color-text-primary: #3b1010;
+  --color-text-secondary: #0047ab;
+}
